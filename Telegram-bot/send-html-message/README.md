@@ -18,7 +18,7 @@ El detalle de todas las llamadas disponibles a la API se encuentra en la documen
 # Contenido de `.env`
 ## Credenciales de Telegram
 - `TELEGRAM_TOKEN`: Es el Token que devuelve el bot `@BotFather` al momento de la creación del bot.
-- `TELEGRAM_CHAT_ID`: Es el ID asociado al chat, se puede obtener haciendo consultas a la url: *[getUpdates](https://api.telegram.org/bot{TELEGRAM_TOKEN}/getUpdates)*.
+- `TELEGRAM_CHAT_ID`: Es el ID asociado al chat, se puede obtener haciendo consultas a la url: *[getUpdates](https://api.telegram.org/bot<TELEGRAM_TOKEN>/getUpdates)*.
 
 
 ## Demás Variables

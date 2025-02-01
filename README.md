@@ -26,3 +26,10 @@ Iré subiendo scripts a medida que los vaya haciendo y testeando. Si querés chu
 - **Bot de Telegram**
     - [Atender comandos (utilizando consultas)](Telegram-bot/receive-command/README.md)
     - [Enviar mensaje HTML](Telegram-bot/send-html-message/README.md)
+
+<br><br>
+
+# Notas y Apuntes
+
+- **Linux**
+    - [Crear servicio](docs/Crear%20Servicio.md)
