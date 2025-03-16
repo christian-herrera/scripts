@@ -1,11 +1,16 @@
 from utils import get_ip_from_ipify
 from telegram import send_ip
+from dotenv import load_dotenv
 import logging, os
 
+# Cargar variables de entorno
+load_dotenv(override=True)
+
 logging.basicConfig(
-    level=logging.INFO, 
+    level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    filename=os.getenv("PATH_LOG_FILE")
+    filename=os.getenv("PATH_LOG_FILE"),
+    encoding='utf-8'
 )
 
 def main():
@@ -23,4 +28,5 @@ def main():
         logging.error(f"Ocurrió un error: {e}")
 
 if __name__ == "__main__":
+    logging.info("=====================================> NUEVA EJECUCIÓN!")
     main()

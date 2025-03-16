@@ -1,8 +1,6 @@
-import os
-import requests
+import logging, os, requests
 from dotenv import load_dotenv
 from datetime import datetime
-import logging
 
 
 # Cargar variables de entorno

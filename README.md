@@ -26,6 +26,8 @@ Iré subiendo scripts a medida que los vaya haciendo y testeando. Si querés chu
 - **Bot de Telegram**
     - [Atender comandos (utilizando consultas)](Telegram-bot/receive-command/README.md)
     - [Enviar mensaje HTML](Telegram-bot/send-html-message/README.md)
+- **Web Scraping para el Moodle**
+    - [Check de Nuevos Datos en el Moodle](Web-scraping/README.md)
 
 <br><br>
 
