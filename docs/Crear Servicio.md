@@ -15,6 +15,12 @@ deactivate
 ```
 Una vez terminado, se debe usar el path absoluto al ejecutable de python del entorno virtual. Si la ruta donde se creó la carpeta `.venv` es `/home/user1/Scripts`, entonces se usará `/home/user1/Scripts/.venv/bin/python3`
 
+Si se requiere se puede exportar los paquetes instalados para luego tener un listado de que cosas instalar:
+```bash
+pip freeze > requirements.txt       # Exporta
+pip install -r requirements.txt     # Instala
+```
+
 <br>
 
 ## Crear el Servicio
