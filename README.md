@@ -4,7 +4,7 @@
 <h1 align="center">Scripts</h1>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/christian-herrera/scripts)
-![Static Badge](https://img.shields.io/badge/version-v1.0.0-blue)
+![GitHub issues](https://img.shields.io/github/issues/christian-herrera/scripts)
 
 ![GitHub License](https://img.shields.io/github/license/christian-herrera/scripts?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/christian-herrera/scripts?style=for-the-badge)
@@ -29,6 +29,8 @@ Iré subiendo scripts a medida que los vaya haciendo y testeando. Si querés chu
 - **Web Scraping para el Moodle**
     - [Check de Nuevos Datos en el Moodle](Web-scraping/without-notify/README.md)
     - [Check de Nuevos Datos en el Moodle (Con Notificación por Telegram)](Web-scraping/with-telegram-notify/README.md)
+- **Battery Discharger**
+    - [Para Ubuntu Server](Battery-discharger/README.md)
 
 <br><br>
 
